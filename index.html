@@ -711,7 +711,7 @@ function goToStep(n){
   if(n===4){
     const paidNow = parseFloat(document.getElementById('amountPaid')?.value) || 0;
     if(paidNow < 500){
-      alert('Please enter the amount you are paying (minimum ₹500) before submitting.');
+      alert('Please enter the amount you are paying (minimum ₹1000) before submitting.');
       return;
     }
   }
